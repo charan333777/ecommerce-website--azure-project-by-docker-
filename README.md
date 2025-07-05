@@ -69,4 +69,12 @@ Just run it don't update any thing for now you can push the code in ACR by runni
 
 ![repo-look-img](screenshots/image-6.jpg)  
 
-These the built image file that sent to the ACR after built by running azure pipeline
+These the built image file that sent to the ACR after built by running azure pipeline  
+
+Here is YMAL.file screenshort which is used for CI part of worker-moduel  
+
+ ![repo-look-img](screenshots/image-7.jpg)  
+
+ Now we will repeat same process to other two moduels as well  
+
+then we plan to develop CD part as well
