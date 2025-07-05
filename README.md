@@ -73,7 +73,7 @@ These the built image file that sent to the ACR after built by running azure pip
 
 Here is YMAL.file screenshort which is used for CI part of worker-moduel  
 
- ![repo-look-img](screenshots/image-7.jpg)  
+ ![repo-look-img](screenshots/image-7.png)  
 
  Now we will repeat same process to other two moduels as well  
 
