@@ -1,2 +1,2 @@
-# Please view Wiki section to know more bout it 
+# Please view Wiki section to know more about it 
 # Thank you
