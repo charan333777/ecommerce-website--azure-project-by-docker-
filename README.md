@@ -47,12 +47,26 @@ for this project we store the built image in ACR (Azure Container Registry) for 
 Steps:  
  Create Resource group and select >> Registry name (shod be unic) >> Location >> Pricing plan (in this standard used) >> if you want give tag >> click on review and create
 
-![repo-look-img](screenshots/Screenshot 2024-07-27 170017.jpg)
+![repo-look-img](screenshots/image-2.jpg)  
 
-After this go to Azure devOps website and create a Ymal pipeline for any module click on pipelines >> then select create new pipeline >> select repo >> build and push image >> connect to azure where you created ACR (by confirming e-mail) >> then you get a build and push code
+  
+After this go to Azure devOps website and create a Ymal pipeline for any module  
+### click on pipelines >> then select create new pipeline >> select repo >>  
+
+ ![repo-look-img](screenshots/image-3.jpg)  
+ 
+ ### >>select image (in this case option 2)>>  
+ 
+ ![repo-look-img](screenshots/image-4.jpg)  
+ 
+ Here we need to provide connection to azure account so that it can push built articts to ACR which we already built  
+ 
+ ![repo-look-img](screenshots/image-5.jpg)  
+ 
+ build and push image >> connect to azure where you created ACR (by confirming e-mail) >> then you get a build and push code
 
 Just run it don't update any thing for now you can push the code in ACR by running it there are the steps
 
-  
+![repo-look-img](screenshots/image-6.jpg)  
 
 These the built image file that sent to the ACR after built by running azure pipeline
